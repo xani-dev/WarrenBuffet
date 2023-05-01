@@ -1,0 +1,46 @@
+body {
+	color: #000080;
+}
+
+.heading {
+	text-align: center;
+	font-weight: bold;
+}
+
+.heading p, h3{
+	margin: 0%;
+}
+
+/* Column Styling */
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	display: table;
+	clear: both;
+}
+
+.list-annotation {
+    font-size: 10px;
+    margin: 0%;
+}
+
+footer {
+	font-size: 11px;
+}
+
+
+
+.footer-centered {
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 200px;
+    
+}
+
+.footer-centered div {
+    padding: 0px;
+}
